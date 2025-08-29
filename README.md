@@ -54,11 +54,11 @@ pip install pandas matplotlib seaborn
 ```
 ## **Step 2: Running Experiments**  
   
-The run_experiments.py script automates the full parameter sweep and generates .csv log files with detailed metrics for each run.  
+The run_experiments.py script automates the full parameter sweep and generates .csv log files with detailed metrics for each run.
 ```Bash  
   
 # Run experiments on all datasets and save logs to the ./logs/ directory  
-
+# For a straightforward implementation, refer to comments starting at line 222
 python run_experiments.py --datasets all --output_dir ./logs/  
 ```  
 ## **Step 3: Generating Analysis**  
