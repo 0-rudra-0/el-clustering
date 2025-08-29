@@ -98,7 +98,7 @@ With a deterministic order established via a topological sort of this graph, eac
 ## **4. Data Specification**  
   
   
-## **Input Data Format (.txt)**  
+## **Input Data Format (.py)**  
   
 The run_experiments.py script expects a simple text file containing a Python-style list of lists, where each inner list represents a multi-dimensional data point.  
 **Example (sample_data.py):**  
